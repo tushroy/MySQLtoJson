@@ -1,8 +1,8 @@
 <?php
 include_once("jsondbcfg.php");
 header('Content-Type: application/json');
-$typ=$_GET['t']; //select
-//$typ='select';
+//$typ=$_GET['t']; //select
+$typ='select';
 $qry=$_GET['q']; // * from table1
 $query= stripslashes($typ." ".$qry); //"SELECT * from table1";
 //Establish connection to DB
