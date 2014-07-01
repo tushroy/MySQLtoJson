@@ -1,6 +1,6 @@
 READ ME
 ==============
-This mySQL to JSON adapter can be used for pull data from mySQL for android,
+This MySQL to JSON adapter can be used for pull data from mySQL for android,
 Google App Engine or other applications
 
 1. Create a mysql database
